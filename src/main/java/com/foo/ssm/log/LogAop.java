@@ -23,7 +23,7 @@ public class LogAop {
     private static final Logger logger = LoggerFactory.getLogger(LogAop.class);
 
 
-    @Pointcut("@annotation(com.qunar.flight.jy.common.log.Log)")
+    @Pointcut("@annotation(com.ssm.log.Log)")
     public void logDao() {
     }
 
