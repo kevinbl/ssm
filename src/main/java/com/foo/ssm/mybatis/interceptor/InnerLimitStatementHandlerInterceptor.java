@@ -20,7 +20,6 @@ import java.util.Properties;
  *
  * Version 1.1.0
  * Created by foolish on 16/11/26.
- * Updated by foolish on 16/11/27.
  */
 @Intercepts({@Signature(type = StatementHandler.class, method = "prepare", args = { Connection.class,Integer.class }) })
 public class InnerLimitStatementHandlerInterceptor extends StatementHandlerInterceptor {

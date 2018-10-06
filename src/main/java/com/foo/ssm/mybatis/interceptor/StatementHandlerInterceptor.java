@@ -26,19 +26,9 @@ import java.util.Properties;
  * 物理分页支持类
  * <p/>
  * 在mybatis主配置文件进行如下配置
- * <pre>
- * &lt;plugins&gt;
- *      &lt;plugin interceptor="com.qunar.base.meerkat.orm.mybatis.support.StatementHandlerPreparePlugin"&gt;&lt;/plugin&gt;
- * &lt;/plugins&gt;
- * </pre>
+ * 
  * 这里默认使用{@link DefaultDialect}进行SQL处理，使用者可自行实现{@link Dialect}接口以应对不同的数据库的SQL规则，并在配置项中指定实现类。
- * <pre>
- * &lt;plugins&gt;
- *      &lt;plugin interceptor="com.qunar.base.meerkat.orm.mybatis.support.StatementHandlerPreparePlugin"&gt;
- *          &lt;property name="dialectClass" value="com.qunar.base.meerkat.orm.mybatis.support.dialect.OracleDialect"/&gt;
- *      &lt;/plugin&gt;
- * &lt;/plugins&gt;
- * </pre>
+ * 
  * @see ResultSetHandlerInterceptor
  * @author zhongyuan.zhang
  */

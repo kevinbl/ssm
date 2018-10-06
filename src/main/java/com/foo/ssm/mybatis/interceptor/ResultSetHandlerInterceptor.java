@@ -1,7 +1,4 @@
 /*
- * $Id$
- *
- * Copyright (c) 2011 Qunar.com. All Rights Reserved.
  */
 package com.foo.ssm.mybatis.interceptor;
 
