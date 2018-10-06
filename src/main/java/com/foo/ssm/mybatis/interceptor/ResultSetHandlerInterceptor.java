@@ -19,16 +19,9 @@ import java.util.Properties;
  * <p/>
  * 
  * 在mybatis主配置文件进行如下配置
- * 
- * <pre>
- * &lt;plugins&gt;
- *      &lt;plugin interceptor="com.qunar.base.meerkat.orm.mybatis.support.ResultSetHandlerHandleResultSetsPlugin"&gt;&lt;/plugin&gt;
- * &lt;/plugins&gt;
- * </pre>
- * 
- * @see StatementHandlerInterceptor
- * @author zhongyuan.zhang
+ *
  */
+
 @Intercepts({
     @Signature(type = ResultSetHandler.class, method = "handleResultSets", args = { Statement.class }) })
 public class ResultSetHandlerInterceptor implements Interceptor {
