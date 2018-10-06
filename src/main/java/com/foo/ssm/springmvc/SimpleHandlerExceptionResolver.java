@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * 简单全局异常处理 Created by chunhan on 16-11-7.
+ * 简单全局异常处理 Created by foolish on 16-11-7.
  */
 public class SimpleHandlerExceptionResolver implements HandlerExceptionResolver, Ordered {
     public final Logger LOGGER = LoggerFactory.getLogger(getClass());
