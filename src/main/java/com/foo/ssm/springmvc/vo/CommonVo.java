@@ -1,7 +1,7 @@
 package com.foo.ssm.springmvc.vo;
 
 /**
- * Created by foolish on 16/12/15.
+ * Created by f on 16/12/15.
  */
 @SuppressWarnings("all")
 public class CommonVo<T> {

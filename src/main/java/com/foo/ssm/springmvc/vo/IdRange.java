@@ -2,7 +2,7 @@ package com.foo.ssm.springmvc.vo;
 
 /**
  * Version 1.0.0
- * Created by foolish on 16/11/29.
+ * Created by f on 16/11/29.
  */
 public class IdRange {
 

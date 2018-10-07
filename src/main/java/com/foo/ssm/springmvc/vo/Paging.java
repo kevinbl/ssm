@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 /**
  * version 1.0.0
- * Created by foolish on 16/8/30 下午10:01.
+ * Created by f on 16/8/30 下午10:01.
  */
 public class Paging implements Serializable {
 

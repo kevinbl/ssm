@@ -26,7 +26,7 @@ import java.util.Properties;
 
 /**
  * version 1.0.0
- * Created by foolish on 16/9/9 上午10:58.
+ * Created by f on 16/9/9 上午10:58.
  */
 @Intercepts({@Signature(type = StatementHandler.class, method = "prepare", args = {Connection.class,Integer.class})})
 public class ShardingTableInterceptor implements Interceptor {

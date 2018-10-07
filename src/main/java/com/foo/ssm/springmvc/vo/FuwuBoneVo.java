@@ -3,7 +3,7 @@ package com.foo.ssm.springmvc.vo;
 /**
  * 前端FuwuBone模版的统一json格式
  *
- * @author foolish
+ * @author f
  * @version v1.0.0
  * @since 2017/4/1
  */

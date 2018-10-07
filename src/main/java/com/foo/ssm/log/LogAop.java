@@ -15,7 +15,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * 注解切面
  *
- * Created by foolish on 2017/2/6.
+ * Created by f on 2017/2/6.
  */
 @Aspect
 @Component

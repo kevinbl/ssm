@@ -3,7 +3,7 @@ package com.foo.ssm.mybatis.sharding;
 /**
  *
  * version 1.0.0
- * Created by foolish on 16/9/9 下午3:05.
+ * Created by f on 16/9/9 下午3:05.
  */
 public interface ISharding {
     /**

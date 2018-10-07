@@ -5,7 +5,7 @@ import org.apache.ibatis.session.RowBounds;
 import java.io.Serializable;
 
 /**
- * created by foolish on 16-10-10.
+ * created by f on 16-10-10.
  */
 public class PageParam implements Serializable {
 
